@@ -35,8 +35,10 @@ Example
 ----------
 
 function onChange(executionContext) 
+
 {
     const formContext = executionContext.getFormContext();
+    
 }
 
 You almost always use executionContext only to get formContext.
