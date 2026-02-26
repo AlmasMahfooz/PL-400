@@ -25,17 +25,18 @@ executionContext — is like event container: This object represents the event t
 It gives Access to formContext
 
 └── Information about the event source (which field changed)
+
 └──Ability to stop the event (e.g., prevent save)
+
 └──Ability to detect save mode (auto-save, manual save, etc.)
+
 
 Example
 ----------
 
 function onChange(executionContext) 
 {
-
     const formContext = executionContext.getFormContext();
-    
 }
 
 You almost always use executionContext only to get formContext.
