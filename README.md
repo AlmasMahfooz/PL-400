@@ -46,3 +46,7 @@ You almost always use executionContext only to get formContext.
 
 ------------------- EXERCISE -------------------
 https://learn.microsoft.com/en-us/training/modules/actions-client-script-power-platform/exercise
+
+
+
+
