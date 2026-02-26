@@ -3,15 +3,23 @@
 Client Script in Power Platform
 context objects in model‑driven app JavaScript 
 executionContext
+
     └── formContext
+    
             ├── data
+            
             │     └── process (Business Process Flow)
+            
             ├── ui
+            
             │     ├── tabs
             │     ├── sections
             │     └── controls
+            
             ├── attributes (columns)
+            
             └── controls (fields on the screen)
+            
 
 executionContext — the event container
 This object represents the event that triggered your function (OnLoad, OnChange, OnSave).
