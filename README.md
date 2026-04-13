@@ -1,5 +1,8 @@
 # PL-400.
 
+collection link [https://learn.microsoft.com/en-us/collections/12omu31mm02ond?source=docs&sharingId=2D19DFB461391D65]
+
+
 Client Script in Power Platform
 context objects in model‑driven app JavaScript 
 executionContext
