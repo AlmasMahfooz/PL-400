@@ -8,6 +8,11 @@ Four types of tables
 >Choice columns are also known as picklists and option sets.
 >Choice columns are key/value pairs contain items with an integer value and a label.
 >Rollup - A read-only column that is calculated by aggregating values from table rows and columns in a one-to-many relationship.
+    Rollup columns:
+.         Max of 10 for each table
+·         Max of 100 for each organization
+·         Can't trigger workflows or flows
+
 >While working with Dataverse, keep this limitation in mind.There is not limit of number of columns, but more than 100 columns mean you 
 need to rethink you table.There is upper limit of amount of data stored in single record.
 Dataverse utilizes Azure SQL as the data store behind the scenes inherits some SQL Server behaviors (like row structure, indexing, column types).
