@@ -1,1 +1,22 @@
+Dataverse
+Four types of tables
+1. Standard 2. Activity 3. Virtual 4. Elastic
 
+
+>By default, every table contains a Primary Name column that is used by lookup columns when establishing relationships with other tables.
+>In Dataverse attachments can be enabled within a table, Attachments are enabled for standard tables.
+>Choice columns are also known as picklists and option sets.
+>Choice columns are key/value pairs contain items with an integer value and a label.
+>Rollup - A read-only column that is calculated by aggregating values from table rows and columns in a one-to-many relationship.
+>While working with Dataverse, keep this limitation in mind.There is not limit of number of columns, but more than 100 columns mean you 
+need to rethink you table.There is upper limit of amount of data stored in single record.
+Dataverse utilizes Azure SQL as the data store behind the scenes inherits some SQL Server behaviors (like row structure, indexing, column types).
+Dataverse does NOT enforce a fixed maximum size for a single record,
+    Small fields (text, numbers, lookups) are stored in the SQL row
+    Large fields (long text, file, image) are stored outside the row
+    This means a single record can grow very large because off-row storage doesn’t count toward SQL’s 8 KB row limit.
+Dataverse has three storage buckets:
+    Database capacity
+    File capacity
+    Log capacity
+As long as you have available storage, a record can keep growing.
