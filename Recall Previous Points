@@ -7,6 +7,11 @@ Four types of tables
 >In Dataverse attachments can be enabled within a table, Attachments are enabled for standard tables.
 >Choice columns are also known as picklists and option sets.
 >Choice columns are key/value pairs contain items with an integer value and a label.
+>Local choices can only be used by the table and column that they're created against and can't be reused on other tables. 
+This approach is only recommended for advanced users that have a specific need for a local choice.
+You can configure a choice column to allow selection of multiple options. This setting can't be changed after the column has been created
+
+
 >Rollup - A read-only column that is calculated by aggregating values from table rows and columns in a one-to-many relationship.
     Rollup columns:
 .         Max of 10 for each table
