@@ -1,1 +1,26 @@
+PCF : HTML, CSS, TypeScript
+Client Scripting: using javascript to run on user browser (events: Foem Load, field change
+and on Form save)
+Dataverse APIs: OData v4 RESTful (supports HTTP)and .NET Framework SDK
+Plugins are custom .NET assemblies, they supports Pre and Post events
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When to configure when to code
